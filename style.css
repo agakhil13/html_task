@@ -16,7 +16,7 @@ header {
     display: flex;
 }
 footer {
-    bottom: 1px;
+    bottom: 0;
     height: auto;
     padding: 5px;
 }
@@ -43,4 +43,5 @@ h1, h3 {
     width: 70%;
     margin: auto;
 }
+
 
