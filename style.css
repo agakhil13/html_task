@@ -12,10 +12,9 @@ header {
     display: flex;
 }
 footer {
-    bottom: 0;
-    padding: 10px 5px;
-    text-align: center;
-    font-size: larger;
+    bottom: 1px;
+    height: auto;
+    padding: 5px;
 }
 #content {
     position: absolute;
@@ -35,7 +34,7 @@ footer {
     
 }
 
-h1 {
+h1, h3 {
     text-align: center;
     width: 70%;
     margin: auto;
