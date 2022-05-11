@@ -53,7 +53,7 @@ h1, h3 {
     width: 90%;
     padding: 5%;
 }
-#image1 {
+#image {
     width: 100%;
     box-shadow: 5px 10px rgb(185, 185, 185);
 }
@@ -63,5 +63,22 @@ h1, h3 {
     font-family: Segoe UI;
     font-weight: bold;
 }
+.row {
+    display: table;
+  }
+.column {
+    padding: 1%;
+    float: left;
+    width: 31%;
+  }
+  @media screen and (max-width: 500px) {
+    .column {
+      width: 90%;
+      padding: 5%;
+    }
+    #image-title {
+        font-size: small;
+    }
+  }
 
 
