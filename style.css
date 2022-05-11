@@ -1,8 +1,9 @@
 .container {
-    width: 50%;
-    margin: 5px auto;
-    background: #c4c3b5;
-    border: 2px solid gray;
+    width: 70%;
+    margin: 5px auto 20px;
+    background: #ffffff;
+    border: 20px solid rgb(226, 226, 226);
+    border-radius: 25px;
     padding: 0 10px;
 }
 
@@ -14,6 +15,6 @@ header {
 }
 h1 {
     text-align: center;
-    width: 50%;
+    width: 70%;
     margin: auto;
 }
