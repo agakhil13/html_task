@@ -49,6 +49,11 @@ h1, h3 {
     margin: auto;
 }
 
+#table-para {
+    font-family: sans-serif;
+    text-align: center;
+}
+
 .image-container {
     width: 90%;
     padding: 5%;
@@ -66,13 +71,18 @@ h1, h3 {
 .row {
     display: table;
   }
-.column {
+.column-3 {
     padding: 1%;
     float: left;
     width: 31%;
   }
+.column-2 {
+    padding: 1%;
+    float: left;
+    width: 48%;
+  }
   @media screen and (max-width: 500px) {
-    .column {
+    .column-3, .column-2 {
       width: 90%;
       padding: 5%;
     }
