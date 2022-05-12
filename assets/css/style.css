@@ -13,7 +13,7 @@ header, footer {
 }
 header {
     top: 0;
-    height: 10%;
+    height: 100px;
     display: flex;
 }
 footer {
@@ -38,7 +38,7 @@ li{
 #content {
     position: absolute;
     overflow: auto;
-    top:12%;
+    top:110px;
     bottom: 5%;
 }
 .container {
