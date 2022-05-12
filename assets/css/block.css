@@ -44,8 +44,7 @@ section{
         font-size: 8px;
     }
     .main-block {
-        display: inline;
-        margin: 1rem;
+        width: 80%;
         border: none;
     }
 }
