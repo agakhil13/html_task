@@ -1,3 +1,7 @@
+html {
+    background: linear-gradient(to bottom, black, white);
+    height: 100%;
+}
 html, body{
     margin: 0;
     padding: 0;
@@ -45,6 +49,19 @@ section{
 }
 .btn-yellow:hover {
     background: orange;
+}
+
+header {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 1;
+    background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
+#center-text {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2rem;
 }
 @media screen and (max-width:500px) {
     html, body{
