@@ -14,11 +14,9 @@ section{
     width: 50%;
     margin: auto;
     border: 0.5rem solid blueviolet;
-    
 }
 .inner-container {
     padding: 2rem 4rem;
-    background: black;
     color: white;
 }
 #big-p {
@@ -37,7 +35,7 @@ section{
     display: flex;
 }
 .btn-yellow {
-    background: rgb(255, 255, 0, .8);
+    background: linear-gradient(rgb(255, 255, 0, .8), rgb(236, 236, 112));
     color: black;
     font-weight: 900;
     margin: 0 .5rem;
@@ -46,7 +44,7 @@ section{
     border: none;
 }
 .btn-yellow:hover {
-    background-color: orange;
+    background: orange;
 }
 @media screen and (max-width:500px) {
     html, body{
