@@ -1,0 +1,51 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+section{
+    position: relative;
+    top: 10rem;
+}
+
+.main-block {
+    background: black;
+    width: 50%;
+    margin: auto;
+    border: 0.5rem solid blueviolet;
+}
+.inner-container {
+    padding: 2rem 4rem;
+    background: black;
+    color: white;
+}
+#big-p {
+    font-size: 1.2rem;
+}
+#h3-title {
+    font-size: 2rem;
+}
+#span-yellow {
+    color: rgba(255, 255, 0, 0.8);
+}
+#span-bold {
+    font-weight: 900;
+}
+.btn-yellow {
+    background: rgb(255, 255, 0, .8);
+    color: black;
+    font-weight: 900;
+    margin: 0 .5rem;
+    padding: .8rem 1.2rem;
+}
+@media screen and (max-width:500px) {
+    html, body{
+        font-size: 8px;
+    }
+    .main-block {
+        display: inline;
+        margin: 1rem;
+        border: none;
+    }
+}

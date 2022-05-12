@@ -14,7 +14,7 @@ header, footer {
 }
 header {
     top: 0;
-    height: 3.5em;
+    height: 3.5rem;
     display: flex;
 }
 footer {
@@ -28,18 +28,18 @@ footer {
 }
 li{
     display: inline-block;
-    font-size: 1.2em;
+    font-size: 1.2rem;
     padding: 1% 2% 1% 0;
 }
 #no-list {
-    font-size: .8em;
+    font-size: .8rem;
     display: none;
 }
 
 #content {
     position: absolute;
     overflow: auto;
-    top: 4em;
+    top: 4rem;
     bottom: 5%;
 }
 .container {
@@ -61,16 +61,16 @@ h1, h3 {
     margin: auto;
 }
 h1 {
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 h3 {
-    font-size: .5em;
+    font-size: .5rem;
 }
 
 #table-para {
     font-family: sans-serif;
     text-align: center;
-    font-size: 1em;
+    font-size: 1rem;
 }
 
 .image-container {
@@ -83,7 +83,7 @@ h3 {
 }
 #image-title {
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.2rem;
     font-family: Segoe UI;
     font-weight: bold;
 }
