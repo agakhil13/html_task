@@ -1,6 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    font-size: 20px;
 }
 header, footer {
     background: #2e354f;
@@ -12,7 +13,7 @@ header, footer {
 }
 header {
     top: 0;
-    height: 10%; 
+    height: 10%;
     display: flex;
 }
 footer {
@@ -20,8 +21,18 @@ footer {
     height: auto;
     padding: 5px;
 }
-
-section {
+.u-list {
+    margin: auto;
+    text-align: center;
+}
+li{
+    display: inline-block;
+    font-size: 1.2em;
+    padding: 1% 2% 1% 0;
+}
+#no-list {
+    font-size: .8em;
+    display: none;
 }
 
 #content {
@@ -31,7 +42,7 @@ section {
     bottom: 5%;
 }
 .container {
-    width: 80%;
+    width: 90%;
     margin: auto auto 20px;
     background: rgb(226, 226, 226);
 }
@@ -48,10 +59,17 @@ h1, h3 {
     width: 70%;
     margin: auto;
 }
+h1 {
+    font-size: 2.5em;
+}
+h3 {
+    font-size: 1.2em;
+}
 
 #table-para {
     font-family: sans-serif;
     text-align: center;
+    font-size: 1em;
 }
 
 .image-container {
@@ -64,12 +82,13 @@ h1, h3 {
 }
 #image-title {
     text-align: center;
-    font-size: large;
+    font-size: 1.2em;
     font-family: Segoe UI;
     font-weight: bold;
 }
 .row {
     display: table;
+    margin: auto;
   }
 .column-3 {
     padding: 1%;
@@ -81,13 +100,19 @@ h1, h3 {
     float: left;
     width: 48%;
   }
-  @media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) {
     .column-3, .column-2 {
       width: 90%;
       padding: 5%;
     }
-    #image-title {
-        font-size: small;
+    #html, body {
+        font-size: 10px;
+    }
+    .u-list {
+        display: none;
+    }
+    #no-list {
+        display: block;
     }
   }
 
