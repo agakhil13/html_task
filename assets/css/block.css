@@ -32,6 +32,9 @@ section{
 #span-bold {
     font-weight: 900;
 }
+.btn-container {
+    display: flex;
+}
 .btn-yellow {
     background: rgb(255, 255, 0, .8);
     color: black;
