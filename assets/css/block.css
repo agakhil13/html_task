@@ -43,6 +43,9 @@ section{
     padding: .8rem 1.2rem;
     font-size: .8rem;
 }
+.btn-yellow:hover {
+    background-color: orange;
+}
 @media screen and (max-width:500px) {
     html, body{
         font-size: 8px;
