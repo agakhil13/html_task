@@ -5,8 +5,9 @@ html, body{
     font-family: sans-serif;
 }
 section{
-    position: relative;
-    top: 10rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .main-block {
@@ -14,6 +15,7 @@ section{
     width: 50%;
     margin: auto;
     border: 0.5rem solid blueviolet;
+    
 }
 .inner-container {
     padding: 2rem 4rem;
