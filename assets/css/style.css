@@ -13,7 +13,7 @@ header, footer {
 }
 header {
     top: 0;
-    height: 100px;
+    height: 10%;
     display: flex;
 }
 footer {
@@ -38,7 +38,7 @@ li{
 #content {
     position: absolute;
     overflow: auto;
-    top:110px;
+    top:12%;
     bottom: 5%;
 }
 .container {
@@ -63,7 +63,7 @@ h1 {
     font-size: 2.5em;
 }
 h3 {
-    font-size: 1.2em;
+    font-size: .9em;
 }
 
 #table-para {
