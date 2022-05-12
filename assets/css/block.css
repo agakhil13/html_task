@@ -42,6 +42,7 @@ section{
     margin: 0 .5rem;
     padding: .8rem 1.2rem;
     font-size: .8rem;
+    border: none;
 }
 .btn-yellow:hover {
     background-color: orange;
