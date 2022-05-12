@@ -2,6 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     font-size: 20px;
+    font-family: sans-serif;
 }
 header, footer {
     background: #2e354f;
@@ -13,7 +14,7 @@ header, footer {
 }
 header {
     top: 0;
-    height: 10%;
+    height: 3.5em;
     display: flex;
 }
 footer {
@@ -38,7 +39,7 @@ li{
 #content {
     position: absolute;
     overflow: auto;
-    top:12%;
+    top: 4em;
     bottom: 5%;
 }
 .container {
@@ -63,7 +64,7 @@ h1 {
     font-size: 1.5em;
 }
 h3 {
-    font-size: .9em;
+    font-size: .5em;
 }
 
 #table-para {
