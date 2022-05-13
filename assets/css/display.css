@@ -63,7 +63,7 @@ h3{
     }
     #left, #middle, #dark {
         width: 90%;
-        margin: auto;
+        margin: 0;
 
     }
 }
