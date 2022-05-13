@@ -1,0 +1,69 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+section {
+    position: absolute;
+    top: 5%;
+    width: 100%;
+}
+#banner {
+    width: 100%;
+    height: 15rem;
+    overflow: hidden;
+}
+h1 {
+    font-size: 1.8rem;
+    text-align: center;
+    padding: .5rem;
+}
+h3{
+    font-size: 1.3rem;
+    color: rgb(139, 92, 3);
+}
+.content {
+    display: flex;
+    width: 90%;
+    margin: 2rem auto;
+}
+#left {
+    width: 25%;
+    padding: .5rem;
+}
+#middle {
+    width: 50%;
+    padding: .5rem;
+}
+#dark {
+    width: 25%;
+    padding: .5rem;
+    background: rgb(83, 50, 0);
+    color: white;
+}
+#div-big {
+    width: 75%;
+    padding: .5rem;
+}
+#span-brown {
+    color: rgb(231, 126, 28);
+}
+
+@media screen and (max-width: 500px) {
+    html, body {
+        font-size: 10px;
+    }
+    .content {
+        display: block;
+    }
+    #left, #middle, #dark {
+        width: 90%;
+        margin: auto;
+
+    }
+}

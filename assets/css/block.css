@@ -30,7 +30,7 @@ section{
     font-size: 2rem;
 }
 #span-yellow {
-    color: rgba(255, 255, 0, 0.8);
+    color: rgb(255, 255, 0, 0.8);
 }
 #span-bold {
     font-weight: 900;
@@ -43,7 +43,7 @@ section{
     color: black;
     font-weight: 900;
     margin: 0 .5rem;
-    padding: .8rem 1.2rem;
+    padding: .8em 1.2em;
     font-size: .8rem;
     border: none;
 }
