@@ -62,7 +62,7 @@ h3{
         display: block;
     }
     #left, #middle, #dark {
-        width: 90%;
+        width: 100%;
         margin: 0;
 
     }
