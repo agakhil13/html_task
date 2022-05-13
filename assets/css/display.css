@@ -61,7 +61,7 @@ h3{
     .content {
         display: block;
     }
-    #left, #middle, #dark {
+    #left, #middle, #dark, #div-big {
         width: 100%;
         margin: 0;
 
