@@ -3,6 +3,7 @@ html, body {
     margin: 0;
     font-size: 16px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #707070;
 }
 .container {
     width: 90%;
@@ -22,6 +23,7 @@ h1 {
     font-size: 1.8rem;
     text-align: center;
     padding: .5rem;
+    color: rgb(0, 0, 0);
 }
 h3{
     font-size: 1.3rem;
@@ -29,25 +31,26 @@ h3{
 }
 .content {
     display: flex;
+    justify-content: space-between;
     width: 90%;
     margin: 2rem auto;
 }
 #left {
-    width: 25%;
+    width: 20%;
     padding: .5rem;
 }
 #middle {
-    width: 50%;
+    width: 45%;
     padding: .5rem;
 }
 #dark {
-    width: 25%;
+    width: 20%;
     padding: .5rem;
     background: rgb(83, 50, 0);
     color: white;
 }
 #div-big {
-    width: 75%;
+    width: 70%;
     padding: .5rem;
 }
 #span-brown {
