@@ -65,7 +65,7 @@ nav a:focus {
 }
 
 
-@media (max-width:800px) and (min-width:481px) {
+@media (max-width:850px) and (min-width:481px) {
     .container-nav {
         display: block;
         text-align: center;
