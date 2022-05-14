@@ -64,7 +64,7 @@ nav a:focus {
     border-bottom: 1px solid #707070;
 }
 
-@media (max-width:770px) {
+@media (max-width:850px) {
     .container-nav {
         display: block;
         text-align: center;
