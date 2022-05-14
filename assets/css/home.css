@@ -27,34 +27,35 @@ section {
     box-shadow: 5px 10px rgb(185, 185, 185);
     margin: 0 1rem;
     cursor: pointer;
-    transition: transform .2s;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: center; /*vertically*/
+    flex-direction: column; /*optional switch axis*/
+    align-items: center; /*horizontally*/
 }
 .col:hover {
     opacity: .8;
     transform: scale(1.1);
+    transition: transform .3s;
     
 }
 .color1 {
-    background: linear-gradient(to bottom right, black, white);
+    background: linear-gradient(to bottom right, rgb(73, 63, 63), rgb(184, 182, 182));
 }
 .color2 {
-    background: linear-gradient(to bottom right, green, yellow);
+    background: linear-gradient(to bottom right, rgb(31, 100, 31), rgba(187, 187, 0));
 }
 .color3 {
-    background: linear-gradient(to bottom right, blue, yellow);
+    background: linear-gradient(to bottom right, rgb(146, 82, 82), rgba(187, 187, 0));
 }
 .color4 {
-    background: linear-gradient(to bottom right, red, yellow);
+    background: linear-gradient(to bottom right, rgb(243, 100, 100), rgba(187, 187, 0));
 }
 
 p {
     color: rgba(255, 255, 255, 0.9);
     font-weight: 600;
     font-size: 1.5rem;
-    text-align: center;
+    text-align: center; /*font alingment*/
 
 }
 
