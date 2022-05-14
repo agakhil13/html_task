@@ -64,13 +64,6 @@ nav a:focus {
     border-bottom: 1px solid #707070;
 }
 
-@media (max-width:850px) {
-    .container-nav {
-        display: block;
-        text-align: center;
-    }
-    
-}
 @media (max-width:480px) {
     html, body {
         font-size: 10px;
@@ -82,3 +75,12 @@ nav a:focus {
         margin-bottom: 1rem;;
     }
 }
+
+@media (max-width:850px) {
+    .container-nav {
+        display: block;
+        text-align: center;
+    }
+    
+}
+
