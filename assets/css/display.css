@@ -58,6 +58,7 @@ h3{
     color: rgb(231, 126, 28);
 }
 
+
 @media screen and (max-width: 500px) {
     html, body {
         font-size: 10px;
